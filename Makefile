@@ -2,7 +2,7 @@ INCLUDE := cs50.h
 
 
 work.out: cs50.o test.o                                                                                                                  
-	gcc -o work cs50.o test.o -g
+	gcc -o work cs50.o test.o -g -lm
 test.o: test.c
 	gcc -c test.c -g
 cs50.o: cs50.c cs50.h
