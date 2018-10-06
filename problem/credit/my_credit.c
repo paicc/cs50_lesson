@@ -43,8 +43,6 @@ int main()
 
 		}
 	}
-    printf("sum = %d\n", sum);
-    printf("final = %d\n", final);	
 
 	final += sum;
 	if ( final % 10 != 0)
